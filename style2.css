@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: white;
+    
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+   
+         
+}
+
+nav {
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(3, 97, 3);
+    padding: 20px;
+}
+ .ask{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 100, 14);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+ }
+ .n1 {
+color: rgb(10, 100, 14);
+margin-top: 50px;
+font-weight: 50px;
+font-size: 40px;
+text-transform: initial;
+font-family: Arial;
+padding: 30px;
+line-height: 1.6;
+width: 600px;
+
+ }
+  img{
+width: 800px; height: 700px;
+border-radius: 20px;
+ }
+ nav a{
+    color: rgb(48, 2, 2);
+    padding: 30px;
+    text-decoration: none;
+
+ }
+ .n2{
+color: black;
+font-family: Arial;
+line-height: 1.6;
+padding: 30px;
+letter-spacing: px;
+ }
+ .n3{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 30px;
+    
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+ }
+ @media only screen and (max-width: 850px){
+    nav{
+        background-color: green;
+    }
+    nav a{
+        display: none;
+    }
+    .n1{
+        font-size: 40px;
+    }
+    header{
+        flex-direction: column;
+    }
+    header div{
+        margin-top: 20px;
+    }
+     img {
+        height: 400px;
+        width: 400px;
+        margin-left: -3rem;
+        margin-top: 40px;
+    }
+ }
+ 
